@@ -9,3 +9,5 @@ Contributions are not welcomed. Please go away.
 ## Project Status
 
 Under testing and revising. 08/21/2020
+
+**Please do not copy, revise, or distribute.**
