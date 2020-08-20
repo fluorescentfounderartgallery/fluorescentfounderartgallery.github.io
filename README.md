@@ -1,6 +1,6 @@
 # fluorescentfounderartgallery.github.io
 
-Fluorescent Founder Art Gallery — a personal project by [@teddzyb] (https://github.com/teddzyb). This website is dedicated to a special person.
+Fluorescent Founder Art Gallery — a personal project by [@teddzyb](https://github.com/teddzyb). This website is dedicated to a special person.
 
 ## Contributing
 
