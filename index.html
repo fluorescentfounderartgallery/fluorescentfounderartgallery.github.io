@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fluorescent Founder Art Gallery</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+  </head>
+<!-- LANDING PAGE  -->
+  <body id="body">
+  <div id="index">
+    <div class="welcome-screen">
+      <div class="container">
+        <h1>A t t e m p t</h1>
+        <div class="enter-code">
+          <input id="code">
+          <button onclick="checkCode()" id="button">enter code</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- MAIN PAGE -->
+  <div id="main">
+    <div id="menuBody">
+      <ul>
+        <li><a href="extras.html">Extras »</a></li>
+      </ul>
+    </div>
+    <div class="mainScreen">
+      <div class="mainScreen-header">
+        <i class="material-icons" onclick="home()">home</i>
+        <h3><a href="#top">ATTEMPT</a></h3>
+        <i class="material-icons" id="open" style="display: inline; margin-right: 10px;" onclick="menuOpen()">menu</i>
+        <i class="material-icons" id="close" style="display: none; margin-right: 10px;" onclick="menuClose()">close</i>
+      </div>
+      <div class="mainScreen-body">
+        <div class="column1">
+          <p>HAPPY BIRTHDAY to the most extraordinary girl I have ever met! Yes, that's you! I'm sorry if I've never been able to express exactly how I feel about you before.
+            I hope you enjoy this little gift that I've been working on for quite a while. Consider this too as a sort of farewell gift, even though it's late.</p>
+          <p>First of all, how are you? I hope you're doing well! It's really sad how we just stopped talking to each other out of nowhere.
+            Well, I'm sure you had your reasons and so did I. But I won't talk about that here. It's better if we talk about that together. Maybe someday, maybe never.
+            But today's your birthday! Not just any birthday, but your 18TH BIRTHDAY! You're finally legal, so you better not go to jail.</p>
+          <p>I remember you saying you didn't want a debut, so I assume you'll go on a road trip or maybe just a small party.
+            I have no idea, but I hope today will be an awesome day for you, and please enjoy your day. Eat as much as you want and party all day!</p>
+          <p id="column1ExpandButton"><button onclick="column1Expand()">Read more »</button></p>
+          <div id="column1Expanded">
+            <p>Junnah, you're truly an amazing person. You're smart, creative, hard-working, caring, and outgoing, to say the least.
+              The more I got to know you, the more you impressed me and blew me away. At first, I thought, <em>"Hey, we're pretty similar."</em>
+              But after some time, I realized that you're actually much more than that. You're more talented and much more impressive than I thought.
+              You cook and even critique my culinary knowledge. <em>(Thanks for the tips btw.)</em> You paint, and your artworks never fail to floor me.
+              You do makeup, and you're so passionate about it. You've got a good sense of humor and good taste in memes.
+              You stay up 'till midnight to study or finish projects and homework. You do journaling and even inspired me to do it as well.
+              You read books and webcomics and gave me a whole list of recommendations. <em>(I'm not even half-way through yet, give me a few more years.)</em>
+              You're good at making conversations and coming up with things to talk about. You're a mother hen, you look out for your friends. You do yoga.
+              You have incredible prophetic skills. You're politically inclined and aware of all the issues and events in our society. <em>(I have a lot to learn.)</em>
+              You've got cats, and you let them in the house?! You're faithful. Loyal. Persistent. I could go on and on. But above all, you're just super fun and a great person to be with.</p>
+            <p>While you do have a dark side as well, I learned to accept and adapt to it because, with everything combined, it makes up <strong>you</strong>.
+              It's not just about what you can do or what your personality is, but also the emotions you made me feel, the memories we've made,
+              and the thought that someone is waiting for your message on the other side of the phone. It is those little things that I cherished and treasured the most.
+              It is those little things that I valued most in life. I might not have known what you look like or even sound like, or if we'd even go well together,
+              but you came into my life and it was a whole new experience altogether. I was happy, I was sad. Content but sometimes frustrated. In love, but just couldn't let it out yet.
+              But above all, I became a better person. It is all <strong>thanks to you!</strong> I always woke up feeling excited for the day. I was inspired to be more confident and do more things.
+              I took care of myself more. I became more positive. I explored more things in life.</p>
+            <p>It is honestly amazing how much one person can change your life. But at the same time, it's also amazing how easily you can lose a person in your life.
+              And looking back, when we stopped talking, I noticed my bad habits coming back to me. I decided that for a whole month,
+              I would forget about anything else and just go back to the old me doing whatever the hell I want. And although it was a nice breath of nostalgic fresh air,
+              I'm sure I preferred not to go back to that state permanently. And I didn't. August came, a new month, and I have gotten my life back together.
+              College is just around the corner and I'm ready for a fresh new chapter, with or without you. And I hope you feel that way too! I hope you feel excited and positive for the future.
+              Of course, nothing comes easy. Many challenges and stressful times will come and you'll have to work hard. But that's life. This is the last year of your senior high journey.
+              Do what you've got to do, and leave behind no regrets. But above all, make more memories and cherish life more. Don't take everything so seriously.
+              After all, you won't look back at that specific project you worked so hard for in school. Rather, you'd look back at the people you were with, the places you've been, and the experience you had.
+              And when you achieve your goal in the end, you'll be much more satisfied.</p>
+            <p>To sum it up, you're an amazing and talented person and I know you will get through life just as you did for the past 18 years. Stay positive <em>(not with covid)</em>, trust in yourself,
+              keep living! Meet more people, make more friends, and cherish each one of them. Learn more, sing more, dance more, paint more, read more, watch more, fangirl more, eat more, sleep more,
+              drink milktea more <em>(less caffeinated coffee pls)</em>, laugh more, love more, cry more <em>(the happy kind of cry, pls don't be sad)</em>, play more, celebrate more, take more photos, cook more,
+              listen to more music, and just be <strong>you</strong> more. Do what you love and don't let what other people say bring you down. And of course, take care of yourself and stay healthy in the process.
+              And I guess that's pretty much it! I don't know whether we'll ever speak to each other again. I'm pretty contented being alone at the moment. Either way, no one knows
+              what will happen in the future, so I'll leave it up to fate. Anyways, there are still tons of stuff to look at around this website, so enjoy and take your time! For the last time,
+              from one <strong>friend</strong> to another, happy birthday and I love you!</p>
+            <p><button onclick="column1Retract()">Read less «</button></p>
+          </div>
+        </div>
+        <div class="column2">
+          <img src="portrait.jpg">
+        </div>
+      </div>
+    </div>
+<!-- GALLERY -->
+  <h1 class="gallery-heading">gallery</h1>
+  <p class="gallery-description">Welcome to Junnah's fluorescent art gallery! Click on any artwork to view my description.</p>
+    <div class="mainScreen">
+      <div class="gallery-body" id="galleryBody">
+    <!-------------------->
+        <div style="max-height: 265px;" class="gallery">
+          <img src="artworks/art1.jpg" onclick="artworkRedirect(art1)">
+        </div>
+    <!-------------------->
+        <div class="gallery">
+          <img src="artworks/art2.jpg" onclick="artworkRedirect(art2)">
+        </div>
+    <!-------------------->
+        <div class="gallery">
+          <img src="artworks/art3.jpg" onclick="artworkRedirect(art3)">
+        </div>
+    <!-------------------->
+        <div style="max-height: 166px;" class="gallery">
+          <img src="artworks/art4.jpg" onclick="artworkRedirect(art4)">
+        </div>
+    <!-------------------->
+        <div class="gallery">
+          <img src="artworks/art5.jpg" onclick="artworkRedirect(art5)">
+        </div>
+    <!-------------------->
+        <div class="gallery">
+          <img src="artworks/art6.jpg" onclick="artworkRedirect(art6)">
+        </div>
+    <!-------------------->
+        <div class="gallery">
+          <img src="artworks/art7.jpg" onclick="artworkRedirect(art7)">
+        </div>
+    <!-------------------->
+        <div class="gallery">
+          <img src="artworks/art8.jpg" onclick="artworkRedirect(art8)">
+        </div>
+    <!-------------------->
+        <div class="gallery">
+          <img src="artworks/art9.jpg" onclick="artworkRedirect(art9)">
+        </div>
+    <!-------------------->
+        <div class="gallery">
+          <img src="artworks/art10.jpg" onclick="artworkRedirect(art10)">
+        </div>
+    <!-------------------->
+        <div class="gallery">
+          <img src="artworks/art11.jpg" onclick="artworkRedirect(art11)">
+        </div>
+    <!-------------------->
+        <div class="gallery">
+          <img src="artworks/art12.jpg" onclick="artworkRedirect(art12)">
+        </div>
+    <!-------------------->
+        <div class="gallery">
+          <img src="artworks/art13.jpg" onclick="artworkRedirect(art13)">
+        </div>
+    <!-------------------->
+        <div class="gallery">
+          <img src="artworks/art14.jpg" onclick="artworkRedirect(art14)">
+        </div>
+    <!-------------------->
+        <div class="gallery">
+          <img src="artworks/art15.jpg" onclick="artworkRedirect(art15)">
+        </div>
+    <!-------------------->
+        <div class="gallery">
+          <img src="artworks/art16.jpg" onclick="artworkRedirect(art16)">
+        </div>
+    <!-------------------->
+        <div class="gallery">
+          <img src="artworks/art17.jpg" onclick="artworkRedirect(art17)">
+        </div>
+    <!-------------------->
+        <div style="max-height: 300px;" class="gallery">
+          <img src="artworks/art18.jpg" onclick="artworkRedirect(art18)">
+        </div>
+    <!-------------------->
+      </div>
+    </div>
+  <p class="gallery-footer">You've reached the end of the gallery, but don't worry! There are still plenty of stuff to check out in the top-right menu.</p>
+  </div>
+  <div id="artworkPage">
+    <div id="menuBody1">
+      <ul>
+        <li><a href="extras.html">Extras »</a></li>
+      </ul>
+    </div>
+    <div class="mainScreen-header">
+      <i class="material-icons" onclick="back()">arrow_back</i>
+      <h3><a href="#top">ATTEMPT</a></h3>
+      <i class="material-icons" id="open1" style="display: inline; margin-right: 10px;" onclick="menuOpen1()">menu</i>
+      <i class="material-icons" id="close1" style="display: none; margin-right: 10px;" onclick="menuClose1()">close</i>
+    </div>
+    <div class="artwork-mainScreen">
+      <img id="artwork" src="">
+      <h3 id="artworkName"></h3>
+    <!--------------------->
+      <p id="description1">The oldest artwork in the gallery, painted 3 years ago. It is a painting of the moon in a black night's sky.
+        It is so simple yet such a masterpiece. It tells us that we should be confident, like the full moon shining amidst the darkness.
+        ED'S REVIEW: 5/6. Good job, 3-years-ago Junnah!</p>
+    <!--------------------->
+      <p id="description2">Also labeled "the oldest", this is a painting of a very mellow pink octopus.
+        She is very pretty and calm, is this what peace of mind looks like? Also, her tentacles are cute and
+        there's nothing wrong with the rings, they look awesome! ED'S REVIEW: 6/6 tentacles, good  job!</p>
+    <!--------------------->
+      <p id="description3">The third artwork in the gallery is a painting of origami flowers that I made.
+        Labeled "a failure" by the artist, it was painted based off my own creation which makes it extra special.
+        Personally, I don't think it looks that bad. After all, art is art and you do not question art.
+        This artwork also tells us that you're beautiful, regardless of your flaws. ED'S REVIEW: 8/10 for not questioning art.</p>
+    <!--------------------->
+      <p id="description4">Next up is a painting of a sunset view from my balcony. Holy heck, I still can't believe you actually painted that.
+        I never knew my backyard could be the source of a masterpiece like this. Many insulted the artist for the
+        poor skill in blending, but personally I like it, and it's close to the original photo. ED'S REVIEW: 9.2/10.</p>
+    <!--------------------->
+      <p id="description5">This is a self-portrait of the artist herself, Junnah. If you haven't noticed yet, I am really bad
+        at naming artworks, so please excuse me. The artist claims that it "isn't her," but I smash (x) Doubt.
+        It is after this day that a much more accurate mental imgae of the artist instilled in my mind.
+        Above all, it was painted in the artist's own style, and I appreciate it. ED'S REVIEW: 11/10.</p>
+    <!--------------------->
+      <p id="description6">The next artwork is a fresh and minimalistic painting of koi fishes swimming.
+        The artist describes this as "koi coming into my life." Very inspiring moment from the artist here.
+        Many others enjoyed this piece, and it's no surprise, because it's just so simple and beautiful.
+        The painting also tells us that sometimes, you've just got to go with the flow. Follow where
+        the wind will take you, and trust in the process. Life is just so beautiful. ED'S REVIEW: 10 + 4 fishes = 14/10.</p>
+    <!--------------------->
+      <p id="description7">Next up is a very simple painting of an avocado. Everyone knows that avocado is a
+        widely used symbol for art. What else can I say, that's a fine avocado. The artist captions her painting as,
+        "the fresh avo ca doo." Very meaningful words we can all appreciate. ED'S REVIEW: 10/10.</p>
+    <!--------------------->
+      <p id="description8">Here we have a watermelon. The artist captions it as, "a failed watermelon," but
+        personally, it doesn't look much like a failure to me. Aside from the absence of watermelon seeds and
+        the watermelon rind not being three dimensional, it looks minimalistic and neat to me. This just proves
+        that you don't need to be perfect for someone to appreciate you. The artist then explains it was just
+        an exercise that she didn't pursue. Well, ED'S REVIEW: 10/10 for exercising. Stay fit!</p>
+    <!--------------------->
+      <p id="description9">Okay, I really apologize for the title. Feel free to sue me. Actually, I'll sure the artist for
+        not telling me the titles in the first place! This is one of the three flowers the artist painted while learning
+        a new technique of paining. "It was stressful," she comments. Well, good job learning that technique, it looks beautiful.
+        Say what you want, but I like it. ED'S REVIEW: 8/8.</p>
+    <!--------------------->
+      <p id="description10">Oh yeah, I was gonna compile the three flowers in one page, but I'm too lazy to do the code all over
+        again, so I apologize once again. This is the second flower out of the three. ED'S REVIEW: 8/8.</p>
+    <!--------------------->
+      <p id="description11">And lastly, the third flower. ED'S REVIEW: 8/8.</p>
+    <!--------------------->
+      <p id="description12">Next we have, yet another flower, but this time, I find this flower very aesthetic and elegant.
+        Seriously, it looks so nice. ED'S REVIEW: 13/10.</p>
+    <!--------------------->
+      <p id="description13">Also a variant of the previous flower, with an extended stem/branch and a leaf.
+        Same thoughts, it's just elegant and beautiful, well done! ED'S REVIEW: 13/10.</p>
+    <!--------------------->
+      <p id="description14">For the next artwork, I named it "Aspiration." It is a painting of tall flowers and a small flock
+        of birds up in the destance. I love this piece so much. I think with a nice background and a blue sky, this could easily be
+        a stunning masterpiece. But even without, it's still a stunning masterpiece to me. The reason why I named it "Aspiration" is
+        because that's the word that always comes to my mind when I see the artwork. The flowers are growing tall and strong, reaching
+        for the sky. This tells us that we should never give up on our dreams, and we should always reach for the sky. One day, the petals
+        of the flower will fly with the wind and reach its aspirations. The surprising thins is, the artist captioned this as, "an ugly thing."
+        The artist obviously doesn't know what she's talking about, so we must ignore that caption. ED'S REVIEW: 17/15.</p>
+    <!--------------------->
+      <p id="description15">I legit don't know what to call this artwork. Abstract Woman it is! This is a painting of a woman's face being
+        consumed by waves of water. Just kidding, I can't really describe it accurately, it is abstract after all. The artist says it took
+        her 'mf 3 hours' to make. Hey, it took me 3 hours just to get the measurements right in this webpage, don't @ me. I'm just kidding!
+        In all seriousness, this artwork and the time it took the artist to make it is very impressive. The artist reveals that the painting
+        is based off a reference. She mentioned that she could've done better and she might remake it someday. Well, I say you go girl!
+        It looks awesome for a first attempt, and if you remake it I'm sure it will look absolutely stunning! ED'S REVIEW: 13/12. Well done!</p>
+    <!--------------------->
+      <p id="description16">The next one is one of the two artworks the artist describes as "the worst of the worst." Then again, we shouldn't trust
+        everything she says. This is a painting of a panda. Well, it's kinda messed up a bit, but actually the more I look at it, the more I like it.
+        The panda is actually cute and cuddly. It's almost as if I can see inside him. He was born into this world with a deformed body, but, he was born
+        into this world. That in itself is a precious blessing. I'm sure mr. panda appreciates you very much for paining him. ED'S REVIEW: 20/20.</p>
+    <!--------------------->
+      <p id="description17">Lastly, we have the second out of the two artworks the artist described as "the worst of the worst." I honesly have no clue
+        why she would say that to this paining. It looks so nice! It reminds me of peace, purity, and maturity. I don't know, those are just the words that come
+        to my mind when I look at it. I think this artwork deserves more justice. ED'S REVIEW: 20/20.</p>
+    <!--------------------->
+      <p id="description18">Here it is, the main attraction of the gallery. The masterpiece of masterpieces. The godpiece. The Dove of Peace and Enlightenment.
+        I have to say, that title is a masterpiece in itself. This artwork is just absolutely stunning! It's a painting of a dove. The dove has been a sentimental
+        symbol for us ever since we started talking. As you know, I chose the dove because I wanted to spread peace and positivity to the people I meet. The time
+        you started using the four-leaf clover as your symbol, I thought it was perfect. I always looked at the plant that the dove carries in its beak, and I associate
+        it with your four-leaf clover. The fact that the dove is carrying your clover means the dove is so lucky to have found the clover. And together, they fly to spead both positivity
+        and good luck. The clover gave more purpose to the dove's life, and inspired him to do better. But the clover cannot survive in the sky for long. The clover needs to return
+        to the earth and grow more. With that, the dove drops the clover and leaves it to return to the soil. One day, when the clover grows big and stronger, I wonder if the dove
+        would be lucky enough to find the four-leaf clover again? ED'S REVIEW: this masterpiece gets a 100/10.</p>
+    <!--------------------->
+    </div>
+  </div>
+  <script src="script.js"></script>
+  </body>
+</html>

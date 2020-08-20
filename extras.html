@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fluorescent Founder Art Gallery</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="icon" href="favicon.ico">
+  </head>
+  <body>
+    <div id="extrasPage">
+    <!------------------------------>
+      <div id="header">
+        <i class="material-icons" onclick="window.location.href='index.html'">arrow_back</i>
+        <h3><a href="#top">ATTEMPT</a></h3>
+        <i class="material-icons" onclick="menu()" style="font-size: 30px;">arrow_drop_down</i>
+        <div class="">
+
+        </div>
+      </div>
+    <!------------------------------>
+      <div id="codeScreen">
+        <p>Welcome! Please enter code to continue.</p>
+        <input id="code">
+        <i class="material-icons" id="button" onclick="checkCode()">chevron_right</i>
+      </div>
+    <!------------------------------>
+      <div id="extras" style="display: none;">
+        <h1>extras</h1>
+        <p>Happy birthday! It's your birthday, so I prepared four extra surprises for you. Pick whichever you want to open first. Enjoy!</p>
+        <div id="boxes">
+          <div class="box" onclick="show(gifts)">
+            <h1>1</h1>
+          </div>
+          <div class="box" onclick="show(surprise)">
+            <h1>2</h1>
+          </div>
+          <div class="box" onclick="show(bonus)">
+            <h1>3</h1>
+          </div>
+          <div class="box" onclick="show(about)">
+            <h1>4</h1>
+        </div>
+      </div>
+      </div>
+    <!------------------------------>
+      <div id="gifts" style="display: none;">
+        <i class="material-icons">redeem</i>
+        <p>GIFTS</p>
+        <p>Gifts, yay! Remember when I asked you what you wanted for your birthday? Well, here they are!
+          If I'd lived in your city, I'd definitely make the effort to buy all these for you and make this day the
+          most enjoyable day, but sadly that's not possible, so here is the digital version! Just imagine them
+          popping up in real life. Enjoy the makeup, skincare, tote bags, white shoes, and milktea!</p>
+        <div id="giftsimg">
+          <img alt="Makeup" src="https://static.onecms.io/wp-content/uploads/sites/38/2018/12/12225019/mom_slammed_for_a_video_of_her_3-year-old_applying_makeup_like_a_pro_still.jpg">
+          <img alt="More makeup" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F14%2F2016%2F01%2F25%2F012516-Makeup-Kit-lead.jpg">
+          <img alt="Skincare products" src="https://i.pinimg.com/originals/5f/22/9a/5f229ab74989f3181d61d99bcede21d1.jpg">
+          <img alt="Tote bag" src="https://cdn.shopify.com/s/files/1/1722/0531/products/modern-love-tote-bicycle_1024x1024.jpg?v=1571439091">
+          <img alt="Another tote bag" src="https://upload.wikimedia.org/wikipedia/commons/8/89/Totebag.jpg">
+          <img alt="White shoes" src="https://www.rieker.co.uk/images/remonte-d0900-80-ladies-white-lace-up-shoes-p10133-11791_image.jpg">
+          <img alt="Milktea" src="https://b.zmtcdn.com/data/pictures/0/19067170/6bb54408080626d4ee29dc146be5dd98.jpg">
+        </div>
+      </div>
+    <!------------------------------>
+      <div id="surprise" style="display: none;">
+        <i class="material-icons">favorite</i>
+        <p>SURPRISE!</p>
+        <a href="artworks/final_art.png" download>
+          <img src="artworks/final_art.png">
+        </a>
+        <p>Before anything, this art was created by my friend, Sebastien, not I myself. Huge credit goes to him!</p>
+        <p>As you can see, this is a digital artwork depicting you and I sitting on a bench together, yay.
+          It's obviously not 100% accurate, but hey you look hella cute. As for me, it looks like I'm on my 20's,
+          and for the record, my torso is not as big as that. I think the most accurate detail here is the height difference hehe.
+          But anyway, enough about the details. Remember all our visions of meeting up in the future?
+          Well, I couldn't stop thinking about them while helping Sebastien draw. Up to this day, the thought still lingers in my mind.
+          Just looking at this artwork, I am reminded that nothing really is impossible. I've never disregarded the possibility that we will
+          meet up in the future, and if I ever find the opportunity, I will not hesitate to take it. No matter what happens, I've decided that
+          Bicol will be one of my dream places to go to. I don't care how long it takes, I want to see the city that you grew up in and
+          go to the places that you've been. To even meet you in the future would be a dream come true! Who knows, you may have a boyfriend
+          by then. It doesn't matter, as long as I get to see you happy, that will make me happy too.</p>
+        <p>With that, I hope you like the artwork. It's simple, but it's just so special and emotional to me. I will never forget you,
+          and I will never forget the impact you had in my life. I will say this over and over again, thank you. And as my last favor, please
+          be happy too. Don't think of this as a downfall, think of this as a learning point and a chance for something greater.
+          Look back, laugh, cry a little, but look forward with confidence and hope. There's still so much waiting for you in the future.
+          Don't forget to never lose hope! I'm always cheering for you psychokinetically :)</p>
+      </div>
+    <!------------------------------>
+      <div id="bonus" style="display: none;">
+        <i class="material-icons">cake</i>
+        <p>BONUS</p>
+        <p>Before anything, I want to acknowledge your apology message from 5 days ago. I honestly wasn't expecting you to message me out of nowhere and apologize like that.
+          Anyhow, I really do appreciate it and I owe you an apology as well, because as I said, we're both at fault. I think we both made a fair share of mistakes along the way,
+          and I'm sorry. Sorry for being dense and I'm also a hypocrite. I've said things that I would do and haven't, and I let the positivity take over me. I was too kind, and I
+          ignored certain issues that I should have corrected. I'm sorry if you expected more from me, I tried and I should have tried harder, but in the end, I guess I'm not ready
+          after all. Please don't blame yourself, because we're both even. What happened, happened and it's all over now. One thing's for sure, the one year and few weeks we spent
+          together was amazing. It was the best year I've ever had and definitely the most meaningful one! It's all thanks to you, and I hope I made some similar impact in your life too.
+          I wish we had gotten closer and knew each other deeper, but oh well. The next time we talk to each other, if that happens, I don't want to hide anymore. I want you to know everything
+          about me and I want to know everything about you too, just like real friends, just like real people. But for now, I wanna be alone for a good few years, and so do you right?
+          We've had a good year together, and now it's time to branch off. If we are destined to meet yet again in  the future, then I won't think twice about taking that opportunity,
+          but until then, good bye. Stay safe, take care of yourself, and good luck on your endeavors.</p>
+        <p>Now, for the main course. As a final gift, I'm giving you stalking permissions. That's right. Down below, blurred out, is my username/handle for mostly any social media (except facebook).
+          It's obviously your choice whether or not you'll want to avail of this opportunity, but it's there and you can do whatever you want with it. Follow me on twitter, instagram, whatever
+          but yeah, sooner or later I might delete telegram if I don't use it. So, if ever you want to keep in touch, be it
+          now or in the future, my handle will always be down there waiting for a click. If you don't, then you may ignore it. And with that, I end the bonus page.</p>
+        <h2 id="blur" onclick="hideBlur()">@teddzyb</h2>
+      </div>
+    <!------------------------------>
+      <div id="about" style="display: none;">
+          <i class="material-icons">info</i>
+          <p>ABOUT</p>
+          <p>Hi! Welcome to the about page lol. I just thought I'd give out a bit of the backstory of this website.
+            So as you already know, this website was created by yours truly, Edwin Bartlett. I made it all from scratch,
+            using just a simple text editor. The project came to mind when I was thinking of what to give you for your birthday,
+            last June. I was so floored by all the artworks you made and showed me that I got inspired to do better and express myself more.</p>
+          <p>For the whole summer, I've been slowly studying web development and data science on my free time. The thing is, I haven't
+            actually put much of my knowledge into practice. Somewhere along the line, I was planning to make a website but I didn't know
+            what for. And then you came out, tricked me with the gallery website, and showcased your art to me. At that point, I thought,
+            <em>let's make it a reality!</em></p>
+          <p>And here we are! This website is dedicated all to you, Junnah. It's not the best but I hope you like it. It was actually originally going
+            to be some sort of a puzzle game, but I decided to get straight to the point instead. It took me around a month
+            in total. I did all the planning and layouting on June, but I only started to make real progress on August. What can I say, I'm just
+            genuinely proud of this and I want to thank you for inspiring me to make it! I learned a lot from this, and I got to put my knowlede
+            to the test. I might add some more content or new feautures in the future, but no promises! But one thing's for sure, I'm gonna
+            make more beautiful projects like this.</p>
+          <p>© 2020 Edwin Bartlett. All Rights Reserved.</p>
+      </div>
+    <!------------------------------>
+    </div>
+  <script src="script1.js"></script>
+  </body>
+</html>
