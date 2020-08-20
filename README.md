@@ -11,4 +11,4 @@ Contributions are not welcomed. Please go away.
 Under testing and revising. 08/21/2020
 ##
 
-**Please do not copy, revise, or distribute.**
+**Please do not copy, revise, or distribute any of the code and files.***
