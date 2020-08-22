@@ -12,7 +12,7 @@ input.addEventListener("keyup", function(event) {
 // Check Code //
 function checkCode() {
   var enteredCode = document.getElementById("code").value;
-  var correctCode = "m4laPk3";
+  var correctCode = "m4IaPk3";
 
   if (enteredCode == correctCode) {
     document.getElementById("codeScreen").style.display = "none";
